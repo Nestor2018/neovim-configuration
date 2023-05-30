@@ -77,3 +77,6 @@ nnoremap <silent> <C-y> 10<C-y>
 " Highlight
 :nnoremap <Leader>d :let @/='\<<C-R>=expand("<cword>")<CR>\>'<CR>:set hls<CR>
 nmap <Leader>D :noh <CR>
+
+"Prettier
+nmap <Leader>. :Prettier<CR>

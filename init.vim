@@ -11,6 +11,7 @@ so ~/neovim-configuration/blankline.lua
 so ~/neovim-configuration/colorizer.lua
 so ~/neovim-configuration/autopairs.lua
 so ~/neovim-configuration/lualine.lua
+so ~/neovim-configuration/diffview.lua
 
 set rnu
 set number
@@ -19,9 +20,6 @@ set hidden
 
 syntax on
 colorscheme gruvbox
-
-set sw=2
-set title
 
 let g:gruvbox_contrast_dark = "hard"
 

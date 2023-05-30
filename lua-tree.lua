@@ -100,13 +100,6 @@ require'nvim-tree'.setup {
     cmd = "trash",
     require_confirm = true,
   },
-  tab = {
-    sync = {
-      open = true,
-      close = true,
-      ignore = {},
-    },
-  },
   log = {
     enable = false,
     truncate = false,

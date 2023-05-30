@@ -48,10 +48,19 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" git
 	Plug 'lewis6991/gitsigns.nvim'
+	Plug 'sindrets/diffview.nvim'
 
 	" markdown
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 
+	" Prettier
+	Plug 'prettier/vim-prettier', {
+	  \'do': 'yarn install',
+	  \'branch': 'release/1.x'
+	  \}
+	Plug 'maxmellon/vim-jsx-pretty' "JS and JSX syntax
+
 	"copilot
 	Plug 'github/copilot.vim'
+
 call plug#end()
